@@ -1,4 +1,4 @@
-import React, { Component, createRef } from 'react';
+/*import React, { Component, createRef } from 'react';
 import Loader from 'react-loader-spinner';
 import fetchImagesFunction from '../../Helpers/FetchImagesFunction';
 import imagesMapper from '../../Helpers/ImagesMapper';
@@ -120,3 +120,4 @@ class ImageFinder extends Component {
 }
 
 export default ImageFinder;
+*/

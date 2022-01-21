@@ -5,7 +5,7 @@ import styles from './Button.module.css';
 
 
 
-const Button = ({ handleLoadMoreButton }) => (
+/*const Button = ({ handleLoadMoreButton }) => (
     <button type = "button"
     className={styles.button}
     onClick={handleLoadMoreButton}
@@ -18,4 +18,16 @@ Button.propTypes = {
   };
   
   export default Button;
+  */
+ 
+export default function Button({ loadMore }) {
+    return (
+      <Button type="button" className={styles.button} onClick={loadMore}>
+        Load more
+      </Button>
+    );
+  }
   
+  Button.propTypes = {
+    loadMore: PropTypes.func.isRequired,
+  };
